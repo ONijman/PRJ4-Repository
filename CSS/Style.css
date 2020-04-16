@@ -1,3 +1,61 @@
-			h1 {color: green; font-size: 40px;}
-			#my-id { background-color: green; font-size: 20px; }
-			.my-class { text-align: center; margin: 20px; background: red; }
+	.Name {
+		font-size: 125px;
+		text-align: center;
+		color: olive;
+		text-decoration: underline;
+	}
+
+	.undertitel {
+		font-size: 25px;
+		text-align: center;
+		
+	}
+
+	.page_title {
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.body {
+		background-color: oldlace;
+		font-family: Righteous;
+	}
+
+	.contact {
+		font-size: 45px;
+		text-align: center;
+		text-decoration: underline;
+		color: olive;
+	}
+
+	.menu {
+		font-size: 45px;
+		text-align: center;
+		text-decoration: underline;
+		color: olive;
+	}
+
+	.food {
+		font-size: 30px;
+		text-align: center;
+	}
+
+	.description {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.col {
+		text-align:center;
+	}
+
+	.footer {
+		text-align: center;
+		color: grey;
+	}
+
+	.carousel {
+		width:1000px;
+	  	height:1000px;
+	}
+	font-family: 'Righteous', cursive;
