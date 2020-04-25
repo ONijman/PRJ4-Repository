@@ -23,6 +23,7 @@
 	.body {
 		background-color: oldlace;
 		font-family: Righteous;
+		overflow-x: hidden;
 	}
 
 	.contact {
