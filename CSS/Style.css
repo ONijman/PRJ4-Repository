@@ -1,3 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+/**font-family: 'Righteous', cursive;**/
+
 	.Name {
 		font-size: 125px;
 		text-align: center;
@@ -8,11 +12,11 @@
 	.undertitel {
 		font-size: 25px;
 		text-align: center;
-		
+		color: white;		
 	}
 
 	.page_title {
-		font-size: 50px;
+		font-size: 75px;
 		text-align: center;
 	}
 
@@ -51,11 +55,38 @@
 
 	.footer {
 		text-align: center;
-		color: grey;
+		color: black;
+		background-color: olive;
+		}
+
+	.header {
+		background-image: url(../Images/background.jpg);
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 
-	.carousel {
-		width:1000px;
-	  	height:1000px;
+	.nav-tabs {
+		font-size: 50px;
+		background-color: olive;
 	}
-	font-family: 'Righteous', cursive;
+
+	.text {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.days {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.info {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.pic {
+   		border: 3px solid olive;
+   	}
+

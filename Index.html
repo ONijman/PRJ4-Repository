@@ -1,78 +1,84 @@
 <!doctype html>
 <html lang="en">
   <head>
+<!--family font-->
     <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <!-- CSS -->
     <link rel="stylesheet" href="CSS/Style.css">
+
 <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <title>Olivier's</title>
+  </head>
+
+
   <body class="body">
-
-<!--header-->
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <h1 class="Name">Olivier's</h1>
-          <p class="undertitel"> Italian Cuisine</p>
-        </div>
-      </div>
-    </div>
-
 <!--Navbar-->
-    <ul class="nav nav-pills nav-fill">
+    <ul class="nav nav-tabs">
       <li class="nav-item">
-        <a class="nav-link active" href="Index.html" style="margin: 7px">Home</a>
+        <a class="nav-link active" href="Index.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Menu.html" style="margin: 7px">Menu</a>
+        <a class="nav-link" href="Index2.html">Menu</a>
       </li>
     </ul>
 
-<!--colums-->
-    <div class="row">
-      <div class="col">
-        <img src="Images/olive_oil.jpg" alt="..." width="100%" height="50%" style="margin: 7px">
-        <img src="Images/appetizer.jpg" alt="..." width="100%" height="50%" style="margin: 7px">
-      </div>
-      <div class="col">
-      <h2 class="page_title">Welcome!</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed hendrerit ipsum, non sollicitudin lectus. Morbi magna felis, blandit aliquet tempus sed, rutrum a ipsum. Aliquam vitae congue tortor. Sed condimentum, massa eu sagittis posuere, tortor tortor dignissim libero, sed volutpat libero leo id elit. Phasellus ac sem tristique, facilisis sapien quis, consequat risus. Aenean sit amet scelerisque justo. Pellentesque nec aliquam enim. Morbi porttitor ligula sit amet dapibus hendrerit. Vivamus cursus volutpat tellus ac ornare. Fusce blandit sed orci at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </div>
-      <div class="col">
-        <img src="Images/tiramisu.jpg" alt="..." width="100%" height="50%" style="margin: 7px">
-        <img src="Images/carpaccio.jpg" alt="..." width="100%" height="50%" style="margin: 7px">
-      </div>
-    </div>
-  </div>
 
-<!--second row of colums-->
-    <div class="row">
-    <div class="col">
-        <ul class="contact" style="margin: 20px">Opening times:</ul>
-        <ul>Monday:   17:00-22:00</ul>
-        <ul>Tuesday:  15:00-23:00</ul>
-        <ul>Wednesday:15:00-23:00</ul>
-        <ul>Thursday: 15:00-00:00</ul>
-        <ul>Friday:   12:00-00:00</ul>
-        <ul>Saturday: 12:00-00:00 </ul>
-        <ul>Sunday:   Closed</ul>
+<!--header-->
+    <div class="jumbotron jumbotron-fluid header">
+      <h1 class="Name">Olivier's</h1>
+      <p class="undertitel"> Italian Cuisine</p>
     </div>
-    <div class="col">
-      <ul class="contact" style="margin: 20px">Contact:</ul>
+
+
+<!--Welcome message-->
+    <div class="jumbotron" style="background-color: oldlace">
+      <h2 class="page_title">Welcome!</h2>
+      <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sed hendrerit ipsum, non sollicitudin lectus. Morbi magna felis, blandit aliquet tempus sed, rutrum a ipsum. Aliquam vitae congue tortor. Sed condimentum, massa eu sagittis posuere, tortor tortor dignissim libero, sed volutpat libero leo id elit. Phasellus ac sem tristique, facilisis sapien quis, consequat risus. Aenean sit amet scelerisque justo. Pellentesque nec aliquam enim. Morbi porttitor ligula sit amet dapibus hendrerit. Vivamus cursus volutpat tellus ac ornare. Fusce blandit sed orci at vehicula. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+
+
+<!--info-->
+  </div>
+    <div class="row">
+      <div class="col-md-4">
+        <ul class="contact">Opening times:</ul>
+        <div class="days">
+          <ul>Monday:   17:00-22:00</ul>
+          <ul>Tuesday:  15:00-23:00</ul>
+          <ul>Wednesday:15:00-23:00</ul>
+          <ul>Thursday: 15:00-00:00</ul>
+          <ul>Friday:   12:00-00:00</ul>
+          <ul>Saturday: 12:00-00:00 </ul>
+          <ul>Sunday:   Closed</ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <img class="img-fluid" src="Images/olive_oil.jpg">
+      </div>
+      <div class="col-md-4">
+        <ul class="contact">Contact:</ul>
+        <div class="info">
         <ul>Monseigneur Hopmansstraat 2</ul>
         <ul>4817 JS Breda</ul>
         <ul>Phone: 076-123456789</ul>
         <ul>E-mail: RestaunrantOliviers@gmail.com</ul>
+        </div>
     </div>
   </div>
 
-<footer class="footer">
-  <p>This is a product of Olivier Nijman</p>
-  <p>This website is pure for education purposes only.</p>
-</footer>
+
+<!--Footer-->
+  <footer> 
+    <div class="footer">@ 2020 This product is pure for educational purposes</div>
+  </footer>
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, Popper is includded with Bootstrap -->
